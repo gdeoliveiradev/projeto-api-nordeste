@@ -1,0 +1,17 @@
+# python
+__pycache__/
+*.pyc
+venv/
+.venv/
+
+# variaveis de ambiente
+.env
+
+# banco local
+*.db
+
+# vscode
+.vscode/
+
+# material da faculdade (fica so no meu pc)
+Documentos/*.pdf

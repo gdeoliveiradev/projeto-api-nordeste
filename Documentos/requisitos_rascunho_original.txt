@@ -1,0 +1,40 @@
+RASCUNHO - primeira anotação dos requisitos (antes de organizar no requisitos.md)
+lendo o estudo de caso raizes do nordeste
+
+quem usa:
+- cliente (app, totem, site)
+- atendente no balcao
+- cozinha
+- gerente da loja
+- matriz / admin
+- sistema de pagamento de fora
+
+o sistema tem que:
+- login com perfil (cliente, atendente, cozinha, gerente, admin)
+- cadastrar unidade
+- cadastrar produto
+- cardapio de cada loja (cada loja tem coisa diferente, junino so em junho)
+- estoque de cada loja, entrada e saida
+- nao vender o que nao tem no estoque!!
+- fazer pedido e salvar de onde veio (app, totem, balcao, pickup, web) -> canalPedido obrigatorio
+- status do pedido: aguardando pagamento > pago > em preparo > pronto > entregue (ou cancelado)
+- filtrar pedido por canal
+- pagamento: NAO processa, so manda pro servico externo e recebe ok/negado -> fazer um mock
+- nao pagar 2x o mesmo pedido
+- fidelidade: pontos, desconto, so se o cliente aceitar
+- promocao/campanha (talvez so documentar)
+- relatorio pra matriz: vendas por loja/regiao, mais vendidos
+- log de cancelamento, desconto, ajuste
+
+nao funcional:
+- senha com hash
+- token jwt
+- lgpd: consentimento, nao mostrar dado sensivel, anonimizar
+- auditoria
+- nao pode cair no pico (paginação, stateless)
+- se o pagamento der erro o pedido nao some
+- swagger
+- erro sempre no mesmo formato json
+
+decisao: fazer o fluxo A (pedido -> pagamento mock -> status)
+ferramentas: vscode, python, fastapi, sqlite, postman, github, drawio
