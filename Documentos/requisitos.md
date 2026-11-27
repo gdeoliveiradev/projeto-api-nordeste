@@ -1,6 +1,7 @@
 # Requisitos - API Raízes do Nordeste
 
 Aluno: Gabriel Antunes de Oliveira
+RU: 4622636
 Trilha: Back-end
 Etapa 1 - Planejamento
 

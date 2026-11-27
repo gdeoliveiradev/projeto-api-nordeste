@@ -1,7 +1,7 @@
 # API Raízes do Nordeste
 
 Projeto Multidisciplinar - Trilha Back-end (UNINTER)
-Aluno: Gabriel Antunes de Oliveira
+Aluno: Gabriel Antunes de Oliveira - RU 4622636
 
 API para a rede de lanchonetes Raízes do Nordeste: pedidos vindos de vários canais (app, totem, balcão, pick-up e web), estoque por unidade, pagamento simulado (mock) e programa de fidelidade respeitando a LGPD.
 
@@ -23,6 +23,7 @@ projeto-api-nordeste/
 
 - [Requisitos](Documentos/requisitos.md)
 - [Escopo (implementado x proposta)](Documentos/escopo.md)
+- [Arquitetura por camadas](Documentos/arquitetura_camadas.md)
 
 ## Tecnologias
 
